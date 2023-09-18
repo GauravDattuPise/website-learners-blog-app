@@ -6,10 +6,18 @@ Here are the specifics:
 #### 1. User Registration and Login:
 We’d like you to create a registration and login mechanism using JSON Web Tokens (JWT) for authentication.
 
+#### User Registration (post)
+##### https://blog-app-0gd2.onrender.com/user/register
+{
+    "userName" : "Chandranath Gupta",
+    "email" : "chandranath@gmail.com",
+    "password" : "Chandranath123@"
+}
+
 #### 2. Blog Post Creation, Reading, Updating, and Deletion (CRUD Operations):
 Logged-in users should be able to create a blog post, read their own and others’ posts, edit their own posts, and delete their own posts.
 
-// create-blog
+#### create-blog
 // get-my-blogs
 // get-others-blog
 // update-my-blog
