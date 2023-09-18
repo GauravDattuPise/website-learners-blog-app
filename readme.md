@@ -1,7 +1,5 @@
 
-
-As part of our evaluation process, we’d like you to complete a small assignment that would help us assess your skills. Your task involves creating a mini version of a RESTful API for a simple blogging platform.
-Here are the specifics:
+### this project aims to create a basic blogging platform with user registration and authentication using JWT, allowing users to perform CRUD operations on blog posts and interact through comments. The API should ensure proper authorization, data validation, and security measures to protect user data and maintain the integrity of the platform.
 
 ## 1. User Registration and Login:
 We’d like you to create a registration and login mechanism using JSON Web Tokens (JWT) for authentication.
