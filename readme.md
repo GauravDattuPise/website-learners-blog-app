@@ -3,7 +3,7 @@
 As part of our evaluation process, we’d like you to complete a small assignment that would help us assess your skills. Your task involves creating a mini version of a RESTful API for a simple blogging platform.
 Here are the specifics:
 
-#### 1. User Registration and Login:
+## 1. User Registration and Login:
 We’d like you to create a registration and login mechanism using JSON Web Tokens (JWT) for authentication.
 
 #### User Registration (post)
@@ -14,14 +14,41 @@ We’d like you to create a registration and login mechanism using JSON Web Toke
     "password" : "Chandranath123@"
 }
 
-#### 2. Blog Post Creation, Reading, Updating, and Deletion (CRUD Operations):
+
+#### User Login (post)
+##### https://blog-app-0gd2.onrender.com/user/login
+{
+   "email" : "chandranath@gmail.com",
+    "password" : "Chandraath123@"
+}
+
+## 2. Blog Post Creation, Reading, Updating, and Deletion (CRUD Operations):
 Logged-in users should be able to create a blog post, read their own and others’ posts, edit their own posts, and delete their own posts.
 
-#### create-blog
-// get-my-blogs
-// get-others-blog
-// update-my-blog
-// delete-my-blog
+#### create-blog (post)
+##### https://blog-app-0gd2.onrender.com/blogs/create-blogs
+{
+    "title" : "chandras 2 blog title",
+    "description" : "chandras 2 blog desc"
+}
+
+#### get-users-blogs (get)
+##### https://blog-app-0gd2.onrender.com/blogs/getUserBlogs
+
+
+#### get-all-blogs (get)
+##### https://blog-app-0gd2.onrender.com/blogs/getAllBlogs
+
+
+#### update-my-blog (put)
+##### https://blog-app-0gd2.onrender.com/blog/updateBlog/64a4345dba047470b71a847f
+{
+    "title" : "first blog title updated"
+}
+
+### delete-my-blogs (delete)
+##### https://blog-app-0gd2.onrender.com/blogs/delete-blog/65082e9e3c923bb4dbe28aee
+(provide blogId to delete the blog)
 
 #### 3. Commenting Feature:
 Logged-in users should be able to comment on their own and others’ posts. Also, they should be able to edit or delete their own comments.
